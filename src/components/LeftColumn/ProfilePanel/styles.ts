@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   padding-bottom: 12px;
@@ -31,6 +31,10 @@ export const Container = styled.div`
     font-weight: 400;
     text-align: center;
     color: var(--color-gray);
+    > a {
+      text-decoration: none;
+      color: var(--color-link);
+    }
   }
   .separator {
     width: 100%;
